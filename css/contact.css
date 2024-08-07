@@ -143,11 +143,19 @@ padding-bottom: 30px;
 
 
 @media only screen and (max-width: 768px){
+
+  .navbar-nav{
+    margin-bottom: 30px;
+    margin-left: 105px;
+    text-align: center;
+  }
+
+
 .section{
   h2{
-    font-size: 30px;
+    font-size: 34px;
     margin-top: 340px;
-    margin-left: 90px;
+    margin-left: 96px;
   }
   p{
     font-size: 15px;
@@ -157,6 +165,9 @@ padding-bottom: 30px;
 .section-2{
   h2{
     font-size: 30px;
+  }
+  h4{
+    font-size: 25px;
   }
 
   button{
@@ -179,12 +190,15 @@ padding-bottom: 30px;
   }h2{
     font-size: 25px;
   }
-  
+  li{
+    margin-left: 100px;
+  }
 
 }
 .section-7{
   .logo{
-    margin-left: 60px;
+    margin-left: 85px;
+    margin-bottom: 30px;
 
   }
   .col-4{

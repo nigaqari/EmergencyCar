@@ -133,6 +133,8 @@ img{
 
   .section-7{
 
+    
+
     background-color: #090a0c69;
     color:white ;
     margin-top: 24px;
@@ -159,6 +161,12 @@ img{
 
 
 @media only screen and (max-width: 900px){
+  
+.navbar-nav{
+    margin-bottom: 30px;
+    margin-left: 105px;
+    text-align: center;
+  }
 
 .section{
   h2{
@@ -187,7 +195,8 @@ margin-left: 40px;
 
 .section-7{
   .logo{
-    margin-left: 60px;
+    margin-left: 85px;
+    margin-bottom: 30px;
 
   }
   .col-4{
