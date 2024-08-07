@@ -1,0 +1,209 @@
+.header{
+    background-image: url('/images/about-img.jpg');
+    background-size:cover ;
+    background-position:center ;
+    height: 100px;
+    position: relative;
+    align-items:flex-start;
+    color: white;
+  
+  }
+
+.logo{
+    height: 70px;
+    width: 200px;
+    border-radius: 50%;
+    }
+.navbar{
+      font-size: 2rem;    
+      width: 100%;
+      position: absolute;
+      top: 0;
+      background-color: #007bff;
+    }
+    
+li{
+        margin-right:40px;
+        }
+
+.section{
+  h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.section-2{
+  margin-top: 70px;
+  background-color: #F3F4FE;
+  text-align: center;
+
+  padding: 20px;
+  h2{
+    
+    font-size: 35px;
+  }
+  p{
+    margin-bottom: 50px;
+  }
+}
+.section-2{
+  
+  .row{
+    margin-bottom: 30px;
+  }
+  .card{
+    margin-bottom: 40px;
+  }
+}
+.section-3{
+  
+  background-color: #007bff;
+  color: white ;
+  padding: 40px;
+img{
+
+  height: 60px;
+
+  
+
+}
+  h3{
+    margin-top: 70px;
+    font-size: 40px;
+    
+    text-align: center;
+  }
+  p{
+    font-size:20px ;
+  }
+
+}
+#navi-part{
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+#pay-part{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+#scmedia{
+  margin-top: 20px;
+  margin-left: 220px;
+}
+.btn{
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3 ease;
+  margin-bottom: 10px;
+  
+  }
+  .btn:hover{
+    background-color: #0056b3;
+  
+  }
+  .btn:focus{
+    outline: none;
+  }
+
+
+  .section-4{
+    margin-top: 40px;
+    margin-left: 750px;
+  .btn{
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  
+  }
+
+  .section-7{
+
+    background-color: #090a0c69;
+    color:white ;
+    margin-top: 24px;
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+    .col-md-4{
+    margin-top: 20px;
+    }
+    .col-4{
+      margin-top: 21px;
+    }
+  }
+  .footer{
+    background-color: #090a0c69;
+    color:white ;
+    text-align: center;
+    margin-top: -24px;
+    height: 100px;
+  
+  }
+  
+
+
+@media only screen and (max-width: 900px){
+
+.section{
+  h2{
+    margin-top: 270px;
+    font-size: 40px;
+  }
+}
+.section-4{
+  margin-left: 20px;
+  .btn{
+    margin-left: 59px;
+  }
+}
+
+#navi-part{
+  margin-left: 30px;
+}
+
+#pay-part{
+margin-left: -15px;
+}
+
+#scmedia{
+margin-left: 40px;
+}
+
+.section-7{
+  .logo{
+    margin-left: 60px;
+
+  }
+  .col-4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+  }
+}
+
+.header{
+  .logo{
+      margin-left: 85px;
+  }
+}
+
+
+
+}
+
